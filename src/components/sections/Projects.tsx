@@ -5,6 +5,7 @@ import sugareaseImg from "../../assets/ai.png"
 import agrifertImg from "../../assets/af.png"
 import cyber from "../../assets/cyber.png"
 import gr from "../../assets/gr.png"
+import portfolio from "../../assets/spwhite2.png"
 
 const projects = [
   {
@@ -61,6 +62,20 @@ const projects = [
     github: "https://github.com/maryeem9/cyber-visual",
     live: "https://cyber-visual.vercel.app/",
   },
+  {
+  title: "Sample Portfolio Website",
+  type: "Personal Project",
+  showLive: true,
+  featured: false,
+  image: portfolio, // update image import accordingly
+  description:
+    "A modern, responsive portfolio website built to showcase frontend skills, clean UI structure, and smooth user interactions. The project focuses on component-based architecture, theme consistency, animated backgrounds, and accessibility-first design.",
+
+  tech: ["React", "Vite", "Tailwind CSS", "Lucide Icons"],
+  github: "https://github.com/maryeem9/sample-portfolio",
+  live: "https://sample-portfolio-black.vercel.app/",
+}
+
 ]
 
 const Projects = () => {
