@@ -45,7 +45,7 @@ const Contact = () => {
         {/* SOCIALS */}
         <div className="flex justify-center gap-6">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/maryeem9"
             target="_blank"
             className="text-gray-400 hover:text-[#c4a18e] transition text-xl"
           >
@@ -53,7 +53,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/maryeem-rasool-23a880372/"
             target="_blank"
             className="text-gray-400 hover:text-[#c4a18e] transition text-xl"
           >
