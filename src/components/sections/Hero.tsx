@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
 
           <a
-            href="/MaryeemCV.pdf"
+            href="/CVMaryeem.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="
