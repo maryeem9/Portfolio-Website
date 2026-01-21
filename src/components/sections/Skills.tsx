@@ -1,4 +1,7 @@
 import FadeUp from "../motion/FadeUp"
+import { FaNodeJs } from "react-icons/fa"
+import { SiMongodb, SiExpress } from "react-icons/si"
+
 import {
   FaHtml5,
   FaCss3Alt,
@@ -37,13 +40,17 @@ const skillGroups = [
     ],
   },
   {
-    title: "Backend / APIs",
-    skills: [
-      { name: "FastAPI", icon: SiFastapi },
-      { name: "Firebase", icon: SiFirebase },
-      { name: "Git", icon: FaGitAlt },
-    ],
-  },
+  title: "Backend / APIs",
+  skills: [
+    { name: "Node.js", icon: FaNodeJs },
+    { name: "Express.js", icon: SiExpress },
+    { name: "MongoDB", icon: SiMongodb },
+    { name: "FastAPI", icon: SiFastapi },
+    { name: "Firebase", icon: SiFirebase },
+    { name: "Git", icon: FaGitAlt },
+  ],
+},
+
 //   {
 //     title: "Mobile & Tools",
 //     skills: [
@@ -60,7 +67,7 @@ const skillGroups = [
 const capabilities = [
   { text: "Build responsive frontend pages using modern web technologies", icon: FaCode },
   { text: "Assist in developing full-stack web applications", icon: FaServer },
-  { text: "Integrate APIs and handle basic backend logic", icon: FaServer },
+  { text: "Integrate APIs and handle backend logic", icon: FaServer },
   { text: "Work with databases for storing and retrieving data", icon: FaDatabase },
   { text: "Add AI features such as chat interfaces and intelligent functionality", icon: FaRobot },
   { text: "Debug issues, test features, and improve UI based on feedback", icon: FaBug },

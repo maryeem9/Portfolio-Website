@@ -6,6 +6,8 @@ import agrifertImg from "../../assets/af.png"
 import cyber from "../../assets/cyber.png"
 import gr from "../../assets/gr.png"
 import portfolio from "../../assets/spwhite2.png"
+import thinkboardVideo from "../../assets/thinkboard.mp4";
+import mern_tb from "../../assets/mern-tb.png"
 
 const projects = [
   {
@@ -36,6 +38,21 @@ const projects = [
   live: "https://gragroservices.com",
 },
 
+{
+  title: "ThinkBoard",
+  type: "MERN Stack Project",
+  showLive: false,          // no live deployment
+  featured: false,
+  image: mern_tb,              // or add a screenshot later
+  description:
+    "A full-stack notes application built with the MERN stack. Users can create, view, edit, and delete notes with data persisted in MongoDB. Built with a REST API, clean component structure, and a local development workflow.",
+
+
+  tech: ["React", "Node.js", "Express", "MongoDB", "Mongoose"],
+  github: "https://github.com/maryeem9/mern-thinkboard",
+  demoVideo: thinkboardVideo,
+},
+
 
   
   {
@@ -49,6 +66,9 @@ const projects = [
     tech: ["HTML5", "CSS3", "JavaScript" , "Bootstrap"],
     github: "https://github.com/maryeem9/AgriFert",
   },
+
+
+
   {
     title: "Cybersecurity Themed Website",
     type: "Personal Project",
@@ -170,6 +190,7 @@ const Projects = () => {
                   </div>
 
                  {/* LINKS */}
+{/* LINKS */}
 <div className="flex gap-6">
   {project.github && (
     <a
@@ -183,6 +204,22 @@ const Projects = () => {
       "
     >
       <FaGithub /> GitHub
+    </a>
+  )}
+
+  {project.demoVideo && (
+    <a
+      href={project.demoVideo}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        flex items-center gap-2
+        text-gray-300
+        transition-colors
+        hover:text-[#c4a18e]
+      "
+    >
+      <FaExternalLinkAlt /> Demo Video
     </a>
   )}
 
@@ -201,6 +238,7 @@ const Projects = () => {
     </a>
   )}
 </div>
+
 
                 </div>
 
